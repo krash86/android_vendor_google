@@ -39,7 +39,6 @@ PRODUCT_PACKAGES += \
     RcsService \
     shutdownlistener \
     TimeService \
-    VZWAPNLib \
     vzw_msdc_api \
     xdivert
 
@@ -51,9 +50,9 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
+	AppDirectedSMSService \
     CarrierEntitlement \
     CNEService \
-    ConnMetrics \
     ConnMO \
     DCMO \
     DiagMon \
